@@ -1,4 +1,4 @@
-Holiday Checker
+# Holiday Checker
 
 This is a website that takes the current date and uses an API to tell you if there is a holiday today or not!
 This was made as part of a capstone project for Dr. Angela Yu's Complete Web Development Bootcamp.
