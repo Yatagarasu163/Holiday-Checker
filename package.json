@@ -1,0 +1,19 @@
+{
+  "name": "capstone-project-four",
+  "version": "1.0.0",
+  "description": "Making Public APIs work in a website",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kay Faraday",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}

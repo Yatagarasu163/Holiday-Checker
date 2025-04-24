@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(24, 31, 62);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 45%;
+}
+
+footer > .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-text{
+    color:aliceblue;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: "Patrick Hand SC";
+    font-size: 5em;
+    color: aliceblue;
+}
+h2{
+    font-size: 4em;
+    color:rgb(180, 180, 180);
+    font-family: "Patrick Hand SC"; 
+}
+
+.type-text{
+    font-family: "Patrick Hand SC";
+    color: aliceblue;
+    font-size: 2em;
+}

@@ -1,0 +1,24 @@
+<%- include("partials/header.ejs") %>
+<% if(locals.name){ %>
+    <div class="flex-container">
+        <div class="card">
+            <h1>Today is <%= name %>!</h1>
+        </div>
+        <div class="card">
+            <p class="type-text">(<%= type %>)</p>
+        </div>
+       <div class="card">
+            <h2>Come tomorrow to check on the holiday!</h2>
+       </div>
+    </div>
+<% } else{ %>
+    <div class="flex-container">
+        <div class="card">
+            <h1>There is no holiday for you today :(</h1>
+        </div>
+       <div class="card">
+            <h2>Come again tomorrow to check on the holiday!</h2>
+       </div>
+    </div>
+<% } %>
+<%- include("partials/footer.ejs") %>
